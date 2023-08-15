@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: px solid black;
+    box-sizing: border-box;
+    font-family: fantasy;
+    
+}
+.header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_head{
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.logo_mid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+.logo_end{
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    align-items: center;
+}
+.bodies{
+    display: flex;
+    height: 530px;
+    
+}
+.content{
+    width: 350px;
+    margin-left: 160px;
+    position: relative;
+}
+.imgbody{
+    width: 350px;
+    
+}
+.tieude{
+    margin-top: 20px;
+}
+h2{
+   font-size: 50px;
+   margin-top: 0px;
+}
+.easy{
+    color: orange;
+}
+
+.wave{
+    width: 30px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+p{
+    
+    margin-top: 30px;
+}
+.planatrip{
+
+    border: 1px solid black;
+    width: 220px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding-left: 20px;
+    background: white;
+   
+}
+.button{
+    position: relative;
+}
+.arrow{
+    position: absolute;
+    margin-left: 154px;
+    box-shadow: -16px 22px 42px 0px rgba(0, 31, 77, 0.12);
+}
+.arrow1{
+    position: absolute;
+    bottom: 250px;
+    left: 0;
+}
+.checked {
+    color: orange;
+    margin-top: 10px;
+  }
+  .checked {
+  color: orange;
+}
+.vertical {
+    border-left: 1px solid rgb(81, 80, 80);
+            height:46px;
+            position:absolute;
+            left: 32%;
+            top: 470px;
+}
+
+.circle {
+    margin-left: 350px;
+    margin-top: -380px;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 50%; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+    z-index: -1;
+    filter: blur(5px);
+}
+.person {
+    width: 500px;
+    height: 430px;
+    margin-left: 300px;
+    margin-top: 100px;
+    position: relative;
+    z-index: 1;
+}
+.chunhat{
+    width: 150px;
+    height:200px;
+    background: rgba(127, 126, 126, 0.5);
+    border-radius: 15px;
+    margin-top: -323px;
+    margin-left: 350px;
+}
+.footer{
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    background:black;
+    
+}
+.circlelive{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: rgb(77, 77, 221);
+    margin-left: 30px;
+    position: relative;
+    top: 15px;
+}
+.circleoncircle{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px dotted white;
+   
+    margin-left: 38px;
+    position: relative;
+    top:-68px;
+}
+.video{
+    margin-left: 24px;
+}
